@@ -4,14 +4,7 @@ const app = express();
 
 app.get("/", (req, res) => {
   res.json({
-    message: "API hola desde express",
-    success: true,
-  });
-});
-
-app.get("/test", (req, res) => {
-  res.json({
-    message: "test route working",
+    message: "Example API v1",
     success: true,
   });
 });

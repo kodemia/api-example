@@ -1,10 +1,14 @@
 {
-  "name": "api-ec2-test",
+  "name": "api-example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "//": [
+    "Es importante contar con los scripts start y dev",
+    "script dev para iniciar la app en modo desarrollo",
+    "script start para iniciar la app en modo producción"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
