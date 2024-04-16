@@ -1,4 +1,4 @@
-const Post = require("../models/post.model");
+const Post = require("../models/posts.model");
 
 function getAll() {
   return Post.find();
